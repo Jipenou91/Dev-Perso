@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Ship_Game", "Ship_Game\Ship_Game.pyproj", "{A1C05FD4-40FB-4E42-9EDA-026CB409449A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1C05FD4-40FB-4E42-9EDA-026CB409449A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C05FD4-40FB-4E42-9EDA-026CB409449A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBACA528-4EF2-45AD-8053-293A8AC6FFE9}
+	EndGlobalSection
+EndGlobal

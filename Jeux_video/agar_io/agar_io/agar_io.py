@@ -6,7 +6,7 @@ pygame.init()
 # fenetre
 screen = pygame.display.set_mode((1900, 1000))
 title = pygame.display.set_caption("Agar io")
-icon = pygame.image.load('agar_io_icon.jpg')
+icon = pygame.image.load('Dev-Perso/Jeux_video/agar_io/agar_io/agar_io_icon.jpg')
 pygame.display.set_icon(icon)
 clock = pygame.time.Clock()
 font = pygame.font.Font(None, 24)
@@ -84,10 +84,10 @@ while running:
     #joueur principal
     pygame.draw.circle(screen, "red", player_pos, taille+weight)
     
-    #detection si nourriture mangé
+    #detection si nourriture mangï¿½
     indice = eat_food(player_pos,taille+weight, pos_food)
     
-    #si nourriture mangé score++ et replace nourriture
+    #si nourriture mangï¿½ score++ et replace nourriture
     if indice!=-1:
         score+=1
         weight+=1
@@ -117,12 +117,8 @@ while running:
         player_pos.y = bottom_limit
 
 
-    # flip() the display to put your work on screen
     pygame.display.flip()
 
-    # limits FPS to 60
-    # dt is delta time in seconds since last frame, used for framerate-
-    # independent physics.
     dt = clock.tick(60) / 1000
 
 pygame.quit()

@@ -7,7 +7,7 @@ DIMENSION_X = 800
 DIMENSION_Y = 1000
 window = pygame.display.set_mode((DIMENSION_X, DIMENSION_Y))
 title = pygame.display.set_caption('Ship Game')
-icon = pygame.image.load('Ship_Game/image/vaisseau.jpg')
+icon = pygame.image.load('Dev-Perso/Jeux_video/Ship_Game/Ship_Game/image/vaisseau.jpg')
 win_icon = pygame.display.set_icon(icon)
 
 # Couleurs
@@ -40,7 +40,7 @@ class Player:
         self.speed = SPEED_JOUEUR
         self.shoots = []
         self.dernier_tir = 0
-        self.shoot_delai = 500 # milisecond
+        self.shoot_delai = 500
         self.score = 0
 
     def draw(self, window):
@@ -97,7 +97,7 @@ class Ennemi:
         self.droite = False
         self.shoots = []
         self.dernier_tir = 0
-        self.shoot_delai = 700 # milisecond
+        self.shoot_delai = 700
 
     def draw(self, window): 
         pygame.draw.rect(window, self.color, (self.x, self.y, self.taille, self.hauteur))
